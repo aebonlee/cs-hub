@@ -1,1 +1,0 @@
-const c=[];async function a(t=!1){return c}async function r(t){return null}async function e(t){return null}async function n(t,u){return null}async function d(t){return n()}async function o(t,u){return n()}export{r as a,e as c,d,a as g,o as t,n as u};

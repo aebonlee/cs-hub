@@ -1,1 +1,0 @@
-async function r(){return{orders:0,revenue:0,members:0,products:0}}async function s({page:t=1,limit:a=20,status:e=""}={}){return{data:[],total:0}}async function n(t,a){return null}async function u({page:t=1,limit:a=20,search:e=""}={}){return{data:[],total:0}}async function c(t){return null}export{s as a,u as b,c,r as g,n as u};
