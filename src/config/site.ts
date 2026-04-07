@@ -105,6 +105,7 @@ const site: SiteConfig = {
     { path: '/courses/cs-theory', labelKey: 'site.nav.csTheory' },
     { path: '/courses/infra', labelKey: 'site.nav.infra' },
     { path: '/franchise', labelKey: 'site.nav.franchise' },
+    { path: '/pricing', labelKey: 'site.nav.pricing' },
     { path: '/about', labelKey: 'site.nav.community' },
   ],
 
