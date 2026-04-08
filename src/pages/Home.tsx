@@ -7,9 +7,7 @@ import site from '../config/site';
 import type { ReactElement, RefObject } from 'react';
 
 const CATEGORY_DESC_KEYS: Record<string, string> = {
-  'programming': 'site.home.categoryProgrammingDesc',
-  'cs-theory': 'site.home.categoryCsTheoryDesc',
-  'infra': 'site.home.categoryInfraDesc',
+  'cs-major': 'site.home.categoryCsMajorDesc',
 };
 
 const Home = (): ReactElement => {
