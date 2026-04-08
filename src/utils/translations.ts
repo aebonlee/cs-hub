@@ -174,22 +174,12 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         courses: '강좌',
-        programming: '프로그래밍',
-        coding: '코딩 기초',
-        cStudy: 'C언어',
-        pythonStudy: 'Python',
-        javaStudy: 'Java',
-        reactStudy: 'React',
-        html: 'HTML/CSS',
-        csTheory: 'CS이론',
+        csMajor: '컴퓨터전공',
         algorithm: '알고리즘',
         dataStructure: '자료구조',
-        software: '소프트웨어공학',
-        webStudy: '웹 개발',
-        infra: '인프라',
-        linuxStudy: '리눅스',
         dbStudy: '데이터베이스',
-        koreatech: '한국IT',
+        software: '소프트웨어공학',
+        infoComm: '정보통신',
         pricing: '요금제',
         franchise: '사이트분양',
         franchiseInquiry: '분양 문의',
@@ -201,7 +191,7 @@ export const translations: Record<string, Record<string, unknown>> = {
       home: {
         title: 'DreamIT CS Hub',
         subtitle: 'CS 학습의 새로운 기준',
-        heroDesc: '코딩, 알고리즘, 자료구조, 운영체제까지 — CS전공 13개 학습사이트를 하나의 허브에서 만나보세요.',
+        heroDesc: '알고리즘, 자료구조, 데이터베이스, 소프트웨어공학, 정보통신 — CS전공 5개 학습사이트를 하나의 허브에서 만나보세요.',
         ctaStart: '강좌 둘러보기',
         ctaFranchise: '사이트 분양 문의',
         statsTitle: 'CS Hub 현황',
@@ -213,11 +203,9 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoriesSubtitle: '체계적인 CS전공 교육 커리큘럼을 제공합니다',
         categoryCoursesCount: '개 강좌',
         categoryViewAll: '전체 보기',
-        categoryProgrammingDesc: 'C, Python, Java, React 등 다양한 프로그래밍 언어를 학습합니다.',
-        categoryCsTheoryDesc: '알고리즘, 자료구조, 소프트웨어공학 등 CS 핵심 이론을 배웁니다.',
-        categoryInfraDesc: '리눅스, 데이터베이스, 네트워크 등 IT 인프라를 학습합니다.',
+        categoryCsMajorDesc: '알고리즘, 자료구조, 데이터베이스, 소프트웨어공학, 정보통신 등 CS 핵심 전공과목을 배웁니다.',
         ctaBottomTitle: '지금 CS 학습을 시작하세요',
-        ctaBottomDesc: '13개 CS전공 학습사이트에서 체계적인 커리큘럼으로 학습할 수 있습니다.',
+        ctaBottomDesc: '5개 CS전공 학습사이트에서 체계적인 커리큘럼으로 학습할 수 있습니다.',
         ctaBottomBtn: '강좌 시작하기'
       },
       courses: {
@@ -229,9 +217,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         visitSite: '사이트 방문하기',
         comingSoon: '준비중',
         categoryTitle: {
-          programming: '프로그래밍 강좌',
-          'cs-theory': 'CS이론 강좌',
-          infra: '인프라 강좌'
+          'cs-major': '컴퓨터전공 강좌'
         }
       },
       difficulty: {
@@ -523,22 +509,12 @@ export const translations: Record<string, Record<string, unknown>> = {
     site: {
       nav: {
         courses: 'Courses',
-        programming: 'Programming',
-        coding: 'Coding Basics',
-        cStudy: 'C Programming',
-        pythonStudy: 'Python',
-        javaStudy: 'Java',
-        reactStudy: 'React',
-        html: 'HTML/CSS',
-        csTheory: 'CS Theory',
+        csMajor: 'CS Major',
         algorithm: 'Algorithms',
         dataStructure: 'Data Structures',
-        software: 'Software Engineering',
-        webStudy: 'Web Development',
-        infra: 'Infrastructure',
-        linuxStudy: 'Linux',
         dbStudy: 'Database',
-        koreatech: 'Korea IT',
+        software: 'Software Engineering',
+        infoComm: 'Information & Communication',
         pricing: 'Pricing',
         franchise: 'Site Franchise',
         franchiseInquiry: 'Franchise Inquiry',
@@ -550,7 +526,7 @@ export const translations: Record<string, Record<string, unknown>> = {
       home: {
         title: 'DreamIT CS Hub',
         subtitle: 'A New Standard for CS Learning',
-        heroDesc: 'From Coding and Algorithms to Data Structures and Operating Systems — explore 13 CS learning sites all in one hub.',
+        heroDesc: 'Algorithms, Data Structures, Database, Software Engineering, and more — explore 5 CS major learning sites all in one hub.',
         ctaStart: 'Browse Courses',
         ctaFranchise: 'Franchise Inquiry',
         statsTitle: 'CS Hub Overview',
@@ -562,11 +538,9 @@ export const translations: Record<string, Record<string, unknown>> = {
         categoriesSubtitle: 'We provide a systematic CS education curriculum',
         categoryCoursesCount: ' courses',
         categoryViewAll: 'View All',
-        categoryProgrammingDesc: 'Learn various programming languages including C, Python, Java, and React.',
-        categoryCsTheoryDesc: 'Study core CS theories including algorithms, data structures, and software engineering.',
-        categoryInfraDesc: 'Learn IT infrastructure including Linux, databases, and networking.',
+        categoryCsMajorDesc: 'Study core CS major subjects including algorithms, data structures, databases, software engineering, and information & communication.',
         ctaBottomTitle: 'Start Your CS Learning Today',
-        ctaBottomDesc: 'Learn with structured curricula across 13 CS learning sites.',
+        ctaBottomDesc: 'Learn with structured curricula across 5 CS major learning sites.',
         ctaBottomBtn: 'Get Started'
       },
       courses: {
@@ -578,9 +552,7 @@ export const translations: Record<string, Record<string, unknown>> = {
         visitSite: 'Visit Site',
         comingSoon: 'Coming Soon',
         categoryTitle: {
-          programming: 'Programming Courses',
-          'cs-theory': 'CS Theory Courses',
-          infra: 'Infrastructure Courses'
+          'cs-major': 'CS Major Courses'
         }
       },
       difficulty: {
