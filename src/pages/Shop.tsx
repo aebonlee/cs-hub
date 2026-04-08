@@ -17,7 +17,7 @@ const Shop = (): ReactElement => {
         <div className="container">
           <div className="edu-coming-soon-card">
             <div className="edu-coming-soon-icon"><i className="fa-solid fa-store"></i></div>
-            <h3>스토어 준비 중입니다.</h3>
+            <h3>{t('site.courses.comingSoon')}</h3>
           </div>
         </div>
       </section>

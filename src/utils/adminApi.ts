@@ -1,5 +1,5 @@
 /**
- * adminApi.ts — 관리자 전용 API 유틸리티 (biz-hub)
+ * adminApi.ts — 관리자 전용 API 유틸리티 (cs-hub)
  */
 import getSupabase, { TABLES } from './supabase';
 

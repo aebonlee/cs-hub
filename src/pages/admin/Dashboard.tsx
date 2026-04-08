@@ -18,7 +18,7 @@ const Dashboard = (): ReactElement => {
     <>
       <div className="admin-page-header">
         <h1>대시보드</h1>
-        <p>DreamIT Biz Hub 관리자 현황</p>
+        <p>DreamIT CS Hub 관리자 현황</p>
       </div>
 
       {loading ? (

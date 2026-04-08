@@ -15,7 +15,7 @@ const NotFound = (): ReactElement => {
           </p>
           <div className="not-found-actions">
             <Link to="/" className="not-found-btn primary">홈으로 돌아가기</Link>
-            <Link to="/contact" className="not-found-btn secondary">문의하기</Link>
+            <Link to="/about" className="not-found-btn secondary">문의하기</Link>
           </div>
         </div>
       </section>
