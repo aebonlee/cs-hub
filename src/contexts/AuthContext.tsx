@@ -124,7 +124,7 @@ export const AuthProvider = ({ children }: AuthProviderProps): ReactElement => {
         }
         setLoading(false);
       }
-      if (event === 'TOKEN_REFRESHED') {
+      if (event === 'TOKEN_REFRESHED' || event === 'SIGNED_IN') {
         setLoading(false);
       }
 
@@ -139,7 +139,7 @@ export const AuthProvider = ({ children }: AuthProviderProps): ReactElement => {
         if (prev) console.warn('Auth: INITIAL_SESSION timeout, forcing loading=false');
         return false;
       });
-    }, 5000);
+    }, 3000);
 
     return () => {
       clearTimeout(fallbackTimer);
