@@ -150,7 +150,7 @@ const Checkout = (): ReactElement | null => {
         return;
       }
 
-      // 3. Verify payment and update order status (non-blocking)
+      // 3. Verify payment and update order status
       try {
         await verifyPayment(paymentResult.paymentId, orderId);
       } catch {
@@ -158,6 +158,12 @@ const Checkout = (): ReactElement | null => {
           await updateOrderStatus(orderId, 'paid', paymentResult.paymentId);
         } catch (updateErr) {
           console.warn('Order status update failed (payment was successful):', updateErr);
+          // 실패 시 localStorage에 저장하여 다음 접속 시 재시도
+          try {
+            const pending = JSON.parse(localStorage.getItem('csh_pending_status') || '[]');
+            pending.push({ orderId, paymentId: paymentResult.paymentId, ts: Date.now() });
+            localStorage.setItem('csh_pending_status', JSON.stringify(pending));
+          } catch { /* quota 무시 */ }
         }
       }
 
